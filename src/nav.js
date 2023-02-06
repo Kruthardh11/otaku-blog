@@ -18,6 +18,7 @@ const Navbar = () => {
         <Link to="/" exact>Home</Link>
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
+        <Link to="/add-your-blog">Add Your Blog</Link>
       </div>
       <div className="nav-toggle" onClick={toggleNav}>
         <i className={`fas fa-bars ${isOpen ? "open" : ""}`}></i>
